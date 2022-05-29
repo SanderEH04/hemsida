@@ -60,4 +60,71 @@ p {
     margin: auto;
     background-color: rgba(211,211,211, 0.5);
     color: black;
+    width: 20%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .header {
+        text-align: center;
+        font-family: "Times New Roman";
+        margin: auto;
+        background-color: rgba(211,211,211, 0.5);
+        width: 50%;
+    }
+    li a {
+        display: block;
+        color:  white;
+        text-align: center;
+        padding: 10px 14px;
+        text-decoration: none;
+    }
+    body {
+        background-image: url(..//images/imageA.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+    html{
+        height: 100%;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .header {
+        text-align: center;
+        font-family: "Times New Roman";
+        margin: auto;
+        background-color: rgba(211,211,211, 0.5);
+        width: 50%;
+    }
+    body {
+        background-image: url(..//images/imageA.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+    html{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+    .header {
+        text-align: center;
+        font-family: "Times New Roman";
+        margin: auto;
+        background-color: rgba(211,211,211, 0.5);
+        width: 25%;
+    }
+    body {
+        background-image: url(..//images/imageA.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+    html{
+        height: 100%;
+        width: 100%;
+    }
 }
