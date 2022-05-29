@@ -37,10 +37,12 @@ body {
     background-repeat: no-repeat;
     height: 100%;
 }
+
 html{
     height: 100%;
     width: 100%
 }
+
 .recipes {
     display: grid;
     padding: 2rem;
@@ -52,10 +54,12 @@ html{
     font: 500 100%/1.5 system-ui;
     font-family: "Times New Roman";
   }
+  
 img {
     max-width: 100%;
     height: auto;
   }
+
 @media (max-width: 650px) {
     body {
       display: block;
